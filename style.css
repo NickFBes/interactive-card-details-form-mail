@@ -168,6 +168,11 @@ form .flex-row{
     width: 33.33%;
     height: 100%;
   }
+
+  .card-container .card{
+    transform: scale(1.1rem);
+  }
+
   .card-container .card-back{
     top: 21rem;
     left: 8rem;
@@ -187,5 +192,19 @@ form .flex-row{
 
   .input-section form{
     max-width: 425px;
+  }
+}
+
+@media(min-width: 1280px){
+  .card-container .card{
+      transform: scale(1.3);
+  }
+  .card-container .card-back{
+      top: 25rem;
+      left: 18rem;
+  }
+  .card-container .card-front{
+      top: 10rem;
+      left: 13rem;
   }
 }
